@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 3px solid purple;
+            padding: 20px;
+            background-color: blanchedalmond;
+            margin:30px ;
+            
+        }
+
+        .items {
+            border: 5px solid;
+            padding: 5px;
+            background-color: rgb(217, 252, 252);
+            margin: 13px 5px;
+            width: 533px;
+
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float:left ; */
+            width: 100%;
+            clear: both;
+        }
+        .headings{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fruits" class="items">
+            <h3 class="headings" >fruits</h3>
+            <p id="fruitspara" class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro modi quia architecto vel
+                voluptatibus ad quae numquam! Deserunt nesciunt praesentium nobis explicabo labore dolores suscipit,
+                cumque doloribus totam! Consequatur ipsum iste nam quasi. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quaerat, aliquid ab eaque aspernatur explicabo quae maxime est vitae fuga mollitia
+                doloribus iure saepe cupiditate libero atque reprehenderit repellendus excepturi, nisi nulla.
+                Temporibus, minus libero.
+            </p>
+        </div>
+        <div id="computer" class="items">
+            <h3 class="headings">computer</h3>
+            <p id="computerpara" class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro modi quia architecto vel
+                voluptatibus ad quae numquam! Deserunt nesciunt praesentium nobis explicabo labore dolores suscipit,
+                cumque doloribus totam! Consequatur ipsum iste nam quasi.
+            </p>
+        </div>
+        <div id="stationary" class="items">
+            <h3 class="headings" >stationary</h3>
+            <p id="stationarypara" class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro modi quia architecto vel
+                voluptatibus ad quae numquam! Deserunt nesciunt praesentium nobis explicabo labore dolores suscipit,
+                cumque doloribus totam! Consequatur ipsum iste nam quasi.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
